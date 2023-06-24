@@ -43,10 +43,3 @@ def test_search_tensor(browser):
     first_link = search_results.find_element(By.TAG_NAME, 'a')
     href = first_link.get_attribute("href")
     assert "tensor.ru" in href
-
-
-
-
-
-
-
