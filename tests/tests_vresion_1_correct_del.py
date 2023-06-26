@@ -74,7 +74,8 @@ def test_yandex_image(browser):
     assert actual_url == expected_url, f"Ожидался URL: {expected_url}, получен URL: {actual_url}"
 
     # 5. Открыть первую категорию
-    first_category = browser.find_element(By.CLASS_NAME, "PopularRequestList-Item_pos_0")
+    first_category = WebDriverWait(browser, 10).until(
+        EC.presence_of_element_located((By.CLASS_NAME, "PopularRequestList-Item_pos_0")))
     first_category.click()
 
     # 6. Проверить, что название категории отображается в поле поиска
