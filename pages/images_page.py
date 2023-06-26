@@ -13,6 +13,9 @@ class ImagesPage:
     def switch_to_new_tab(self):
         self.browser.switch_to.window(self.browser.window_handles[-1])
 
+    def wait_for_url_to_be(self, expected_url, timeout=10):
+        WebDriverWait(self.browser, timeout).until(EC.url_to_be(expected_url))
+
     def search(self):
         search_input = self.browser.find_element(*ImagesPageLocators.SEARCH_INPUT)
         search_input.click()

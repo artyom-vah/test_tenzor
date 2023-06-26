@@ -1,8 +1,4 @@
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
 from pages.images_page import ImagesPage
-from locators.yandex_locators import ImagesPageLocators
 
 
 def test_yandex_image(browser):
@@ -27,7 +23,7 @@ def test_yandex_image(browser):
 
     # Дождаться, пока URL станет ожидаемым
     expected_url = "https://yandex.ru/images/"
-    WebDriverWait(browser, 10).until(EC.url_to_be(expected_url))
+    images_page.wait_for_url_to_be(expected_url)
 
     actual_url = browser.current_url
     assert actual_url == expected_url, f"Ожидался URL: {expected_url}, получен URL: {actual_url}"
