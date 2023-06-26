@@ -92,7 +92,7 @@ def test_yandex_image(browser):
 
     # получаем название картинки на 8м шаге, чтоб сравнить с шагом 10 и 12
     image_8th_text = image_8th.text
-    print(image_8th_text)
+    # print(image_8th_text)
 
     # 9. Нажать кнопку вперед
     button_next = browser.find_element(By.CSS_SELECTOR, 'div.CircleButton_type_next')
@@ -109,3 +109,14 @@ def test_yandex_image(browser):
     # 12. Проверить, что картинка осталась из шага 8
     image_12th = browser.find_element(By.CSS_SELECTOR, '.Link_view_default')
     assert image_12th.text == image_8th_text, "Картинка изменилась"
+
+'''
+  я хочу релизовать данную структуру паттерн PageObject 
+locators/
+    yandex_locators.py    
+pages/
+    images_page.py
+tests/
+    conftest.py
+    test_images_yandex.py
+'''
