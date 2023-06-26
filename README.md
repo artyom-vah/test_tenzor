@@ -9,14 +9,14 @@
 3)	Ввести в поиск Тензор
 4)	Проверить, что появилась таблица с подсказками (suggest)
 
-![img_1.png](screens/img_1.png)
+![img_1.png](screens_for_README/img_1.png)
 5)	Нажать enter
 
 6)	Проверить, что появилась страница результатов поиска
 
 7)	Проверить 1 ссылка ведет на сайт tensor.ru
 
-![img_2.png](screens/img_2.png)
+![img_2.png](screens_for_README/img_2.png)
 
 
 <br>
@@ -25,39 +25,39 @@
 1)	Зайти на ya.ru
 2)	Проверить, что кнопка меню присутствует на странице
 
-![img_3.png](screens/img_3.png)
+![img_3.png](screens_for_README/img_3.png)
 
 <br>
 
 3)	Открыть меню, выбрать “Картинки”
 
-![img_4.png](screens/img_4.png)
+![img_4.png](screens_for_README/img_4.png)
 
 4)	Проверить, что перешли на url https://yandex.ru/images/
 
 5)	Открыть первую категорию
 
-![img_5.png](screens/img_5.png)
+![img_5.png](screens_for_README/img_5.png)
 
 <br>
 
 
 6)	Проверить, что название категории отображается в поле поиска
 
-![img_6.png](screens/img_6.png)
+![img_6.png](screens_for_README/img_6.png)
 
 <br>
 
 7)	Открыть 1 картинку
 
-![img_7.png](screens/img_7.png)
+![img_7.png](screens_for_README/img_7.png)
 
 <br>
 
 8)	Проверить, что картинка открылась
 9)	Нажать кнопку вперед
 
-![img_8.png](screens/img_8.png)
+![img_8.png](screens_for_README/img_8.png)
 
 <br>
 
@@ -112,4 +112,4 @@ python -m pip install --upgrade pip
 ```
 pip install -r requirements.txt
 ```
-Автор проекта: Артем Вахрушев (ссылка на мой гит: https://github.com/artyom-vah)
+Автор проекта: Артем Вахрушев.
