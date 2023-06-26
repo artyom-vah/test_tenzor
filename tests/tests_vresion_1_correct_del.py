@@ -53,18 +53,19 @@ def test_yandex_image(browser):
     search_input = browser.find_element(By.CSS_SELECTOR, "input[name='text']")
     search_input.click()
 
-    # 3. Открыть все окно-меню "все сервисы" и выбрать "картинки"
+    # 3 открыть меню 'все сервисы'
     services_menu = browser.find_element(By.CSS_SELECTOR, ".services-suggest__item-more")
-    assert services_menu.is_displayed()
+    assert services_menu.is_displayed(), "кнопка меню 'все сервисы' не присутствует на странице"
     services_menu.click()
 
+    # 4 выбрать "картинки"
     images_link = browser.find_element(By.CSS_SELECTOR, "div.services-more-popup__section-content:nth-child(1) > span:nth-child(9) > a:nth-child(2)")
     images_link.click()
 
     browser.get("https://yandex.ru/images/")
 
     # 5. Проверить, что перешли на url https://yandex.ru/images/
-    assert browser.current_url == "https://yandex.ru/images/"
+    assert browser.current_url == "https://yandex.ru/images/", "Вы не перешли по адресу https://yandex.ru/images/"
 
     # 6. Открыть первую категорию
     first_category = browser.find_element(By.CLASS_NAME, "PopularRequestList-Item_pos_0")
@@ -75,7 +76,7 @@ def test_yandex_image(browser):
     first_image.click()
 
     # 8. Проверить, что картинка открылась
-    assert "https://yandex.ru/images/" in browser.current_url
+    assert "https://yandex.ru/images/" in browser.current_url, "Картинка не открылась"
 
     # 9. Нажать кнопку вперед
     browser.back()
