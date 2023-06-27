@@ -2,7 +2,7 @@ from pages.search_page import SearchPage
 
 
 def test_search_yandex(browser):
-    """Тестирование 1го сценарий - Поиск в яндексе"""
+    """Тестирование 1го сценария - Поиск в яндексе"""
 
     # Создание экземпляра SearchPage
     search_page = SearchPage(browser)

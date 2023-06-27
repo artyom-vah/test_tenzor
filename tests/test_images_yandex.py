@@ -2,7 +2,7 @@ from pages.images_page import ImagesPage
 
 
 def test_yandex_image(browser):
-    """Тестирование 2го сценарий - Картинки на яндексе"""
+    """Тестирование 2го сценария - Картинки на яндексе"""
 
     # Создаем экземпляр ImagesPage (страницы Яндекс.Картинки)
     images_page = ImagesPage(browser)
