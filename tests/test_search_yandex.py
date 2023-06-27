@@ -1,19 +1,20 @@
 from pages.search_page import SearchPage
 
 
-# @pytest.mark.parametrize("search_query", ["Тензор"]) можно так, надо запомнить
 def test_search_yandex(browser):
-    search_query = "Тензор"
+    """Тестирование 1го сценарий - Поиск в яндексе"""
 
     # Создание экземпляра SearchPage
     search_page = SearchPage(browser)
-    search_page.load_page()
+
+    # Шаг 1: Зайти на https://ya.ru/
+    search_page.load_page_ya_ru()
 
     # Шаг 2: Проверить наличие поля поиска
     assert search_page.is_search_input_displayed(), "Поле поиска не отображается на странице"
 
     # Шаг 3: Ввести в поиск "Тензор"
-    search_page.enter_search_query(search_query)
+    search_page.enter_search_query("Тензор")
 
     # Шаг 4: Проверить, что появилась таблица с подсказками (suggest)
     assert search_page.is_suggest_table_displayed(), "Таблица с подсказками (suggest) не отображается на странице"
