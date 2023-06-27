@@ -110,13 +110,4 @@ def test_yandex_image(browser):
     image_12th = browser.find_element(By.CSS_SELECTOR, '.Link_view_default')
     assert image_12th.text == image_8th_text, "Картинка изменилась"
 
-'''
-  я хочу релизовать данную структуру паттерн PageObject 
-locators/
-    yandex_locators.py    
-pages/
-    images_page.py
-tests/
-    conftest.py
-    test_images_yandex.py
-'''
+
