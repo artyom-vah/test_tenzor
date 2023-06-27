@@ -1,6 +1,7 @@
-from locators.yandex_locators import ImagesPageLocators
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+
+from locators.yandex_locators import ImagesPageLocators
 
 
 class ImagesPage:
