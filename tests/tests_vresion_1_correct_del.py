@@ -109,5 +109,3 @@ def test_yandex_image(browser):
     # 12. Проверить, что картинка осталась из шага 8
     image_12th = browser.find_element(By.CSS_SELECTOR, '.Link_view_default')
     assert image_12th.text == image_8th_text, "Картинка изменилась"
-
-
