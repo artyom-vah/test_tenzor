@@ -9,55 +9,56 @@
 3)	Ввести в поиск Тензор
 4)	Проверить, что появилась таблица с подсказками (suggest)
 
-![img_1.png](screens_for_README/img_1.png)
+<img src="screens_for_README/img_1.png" alt="img_1.png" width="600">
+
 5)	Нажать enter
 
 6)	Проверить, что появилась страница результатов поиска
 
 7)	Проверить 1 ссылка ведет на сайт tensor.ru
 
-![img_2.png](screens_for_README/img_2.png)
+<img src="screens_for_README/img_2.png" alt="img_2.png" width="600">
 
 
-<br>
+<br> <br>
 
 #### 2й сценарий:
 1)	Зайти на ya.ru
 2)	Проверить, что кнопка меню присутствует на странице
 
-![img_3.png](screens_for_README/img_3.png)
+<img src="screens_for_README/img_3.png" alt="img_3.png" width="600">
 
 <br>
 
 3)	Открыть меню, выбрать “Картинки”
 
-![img_4.png](screens_for_README/img_4.png)
+<img src="screens_for_README/img_4.png" alt="img_4.png" width="400">
 
 4)	Проверить, что перешли на url https://yandex.ru/images/
 
 5)	Открыть первую категорию
 
-![img_5.png](screens_for_README/img_5.png)
+<img src="screens_for_README/img_5.png" alt="img_5.png" width="600">
 
 <br>
 
 
 6)	Проверить, что название категории отображается в поле поиска
 
-![img_6.png](screens_for_README/img_6.png)
+<img src="screens_for_README/img_6.png" alt="img_6.png" width="600">
 
 <br>
 
 7)	Открыть 1 картинку
 
-![img_7.png](screens_for_README/img_7.png)
+<img src="screens_for_README/img_7.png" alt="img_7.png" width="600">
 
 <br>
 
 8)	Проверить, что картинка открылась
 9)	Нажать кнопку вперед
 
-![img_8.png](screens_for_README/img_8.png)
+<img src="screens_for_README/img_8.png" alt="img_8.png" width="600">
 
 <br>
 
