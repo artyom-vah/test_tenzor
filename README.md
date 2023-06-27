@@ -164,6 +164,8 @@ python -m pytest --html=report.html
 # после чего будет сгенерирован файл report.html в корне проекта, 
 # а также папка с файлом assets/style.css
 ```
+<br>
+
 **Пример готового отчета:**
 ![img_9.png](screens_for_README/img_9.png)
 
