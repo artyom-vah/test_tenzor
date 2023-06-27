@@ -42,7 +42,6 @@
 
 <br>
 
-
 6)	Проверить, что название категории отображается в поле поиска
 
 <img src="screens_for_README/img_6.png" alt="img_6.png" width="500">
