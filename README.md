@@ -12,9 +12,7 @@
 <img src="screens_for_README/img_1.png" alt="img_1.png" width="500">
 
 5)	Нажать enter
-
 6)	Проверить, что появилась страница результатов поиска
-
 7)	Проверить 1 ссылка ведет на сайт tensor.ru
 
 <img src="screens_for_README/img_2.png" alt="img_2.png" width="500">
@@ -35,7 +33,6 @@
 <img src="screens_for_README/img_4.png" alt="img_4.png" width="300">
 
 4)	Проверить, что перешли на url https://yandex.ru/images/
-
 5)	Открыть первую категорию
 
 <img src="screens_for_README/img_5.png" alt="img_5.png" width="500">
